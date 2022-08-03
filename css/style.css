@@ -1,4 +1,12 @@
+.nav {
+  background-color: #d50000;
+}
+
 .video {
   aspect-ratio: 16/ 9;
   width: 50%;
+}
+.image {
+  width: 50%;
+  height: 50%;
 }
