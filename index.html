@@ -9,16 +9,26 @@
 
     <!--Import materialize.css-->
     <link
-      type="text/css"
       rel="stylesheet"
-      href="css/materialize.min.css"
-      media="screen,projection"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
 
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slipknot Band Mock</title>
+  </head>
+  <body>
     <nav>
       <div class="nav-wrapper">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <a href="#!" class="brand-logo">Slipknot</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="discography.html">Discography</a></li>
@@ -28,23 +38,23 @@
       </div>
     </nav>
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <title>Slipknot Band Mock</title>
-  <h1><center>Hello Fellow Maggots</center></h1>
-  <iframe
-    class="video"
-    src="https://www.youtube.com/embed/INi3qP1oWlY"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  >
-  </iframe>
-  <body>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="discography.html">Discography</a></li>
+      <li><a href="musicvideo.html">Music Videos</a></li>
+      <li><a href="tour.html">Tour</a></li>
+    </ul>
+    <h1><center>Hello Fellow Maggots</center></h1>
+    <iframe
+      class="video"
+      src="https://www.youtube.com/embed/INi3qP1oWlY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+    </iframe>
     <!--JavaScript at end of body for optimized loading-->
     <!--Compiled and minifed jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
