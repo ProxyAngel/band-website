@@ -6,7 +6,7 @@
   aspect-ratio: 16/ 9;
   width: 50%;
 }
-.image {
-  width: 60px;
-  height: 60px;
+
+.col img {
+  width: 100%;
 }
