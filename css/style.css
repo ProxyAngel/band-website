@@ -3,8 +3,7 @@
 }
 
 .video {
-  aspect-ratio: 16/ 9;
-  scroll-padding: 25px;
+  width: 100%;
 }
 
 .col img {
