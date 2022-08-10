@@ -10,3 +10,7 @@
 .col img {
   width: 100%;
 }
+
+.container {
+  align-content: center;
+}
