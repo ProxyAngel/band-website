@@ -14,3 +14,7 @@
 .container {
   align-content: center;
 }
+
+.btn-large {
+  max-width: fit-content;
+}
